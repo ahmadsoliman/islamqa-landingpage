@@ -44,6 +44,7 @@ function App() {
           <div className='flex justify-between h-16'>
             <div className='flex items-center'>
               <BookOpen className='h-8 w-8 text-[#4a7c12]' />
+              {/* <img src='/images/logo.png' alt='IslamQA AI' className='h-8' /> */}
               <span className='ml-2 text-xl font-bold text-[#4a7c12]'>
                 IslamQA AI
               </span>
