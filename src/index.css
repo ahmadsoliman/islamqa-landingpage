@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Modern gradient animations */
 .gradient-animate {
   background: linear-gradient(
     45deg,
@@ -26,7 +25,6 @@
   }
 }
 
-/* Smooth hover transitions */
 .hover-lift {
   transition: transform 0.2s ease-in-out;
 }
@@ -35,10 +33,26 @@
   transform: translateY(-2px);
 }
 
-/* Modern card styles */
 .glass-effect {
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Improved paragraph spacing */
+p {
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+/* Section spacing */
+section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+/* Better button hover states */
+button:hover {
+  transition: all 0.3s ease;
 }
